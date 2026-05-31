@@ -1,0 +1,25 @@
+{
+  "name": "tradingview-mcp",
+  "version": "1.0.0",
+  "description": "TradingView MCP Server for Claude",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "node --inspect=9229 dist/index.js",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": ["mcp", "tradingview", "claude", "ai"],
+  "author": "Seokkwon-Park",
+  "license": "MIT"
+}
